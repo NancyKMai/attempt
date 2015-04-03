@@ -2,7 +2,6 @@ package warmups;
 import java.util.Scanner;
 /**
  * hackerrank.com
- * @author Nancy
  *
  */
 public class MaximizingXOR {
