@@ -8,7 +8,7 @@ public class ServiceLine {
 	 public static void main(String[] args) {
 		 Scanner in = new Scanner(System.in);
 		 int n = in.nextInt(); //denotes the length of the freeway
-int t = in.nextInt(); //number of test cases
+		 int t = in.nextInt(); //number of test cases
 		
 		 int[] nSpace = new int[n];
 		 for(int i=0; i<n; i++){
