@@ -21,13 +21,13 @@ public class LoveLetterMystery {
     	int count = 0;
     	int l = s.length()/2;
     	for(int i=0; i<l; i++){
-    			char begin = s.charAt(i);
-    			char end = s.charAt(s.length()-i-1);
-    			while(!(begin == end)){
-    				if(begin<end) end--;
-    				else begin--;
-    				count++;
-    			}
+    		char begin = s.charAt(i);
+    		char end = s.charAt(s.length()-i-1);
+    		while(!(begin == end)){
+    			if(begin<end) end--;
+    			else begin--;
+    			count++;
+    		}
     	}
     	return count;
     }
