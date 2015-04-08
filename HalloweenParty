@@ -1,0 +1,27 @@
+package warmups;
+
+import java.util.Scanner;
+/**
+ * hackerrank.com
+ *
+ */
+public class HalloweenParty {
+
+	public static void main(String[] args) {
+		 Scanner in = new Scanner(System.in);
+		 int t = in.nextInt();
+		 for(int i=0; i<t;i++){
+			 System.out.println(maxPiece(in.nextInt()));
+		 }
+		 in.close();
+	}
+
+	static long maxPiece(int k) {
+		long x = k /2;
+		long y = x + 1;
+		if(k%2 == 0){
+			return (x*x);
+		}
+		return (x*y);
+	}
+}
